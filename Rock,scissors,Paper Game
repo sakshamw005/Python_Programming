@@ -1,0 +1,16 @@
+user1=input()
+user2=input()
+ch1=input()
+ch2=input()
+if ch1 == "Rock" and ch2 == "Scissor":
+    print( user1 ,"Win")
+elif ch1=="Scissor" and ch2 == "Rock":
+    print(user2 ,"Win")
+elif ch1=="Scissor" and ch2=="Paper":
+    print(user1,"Win")
+elif ch2=="Scissor" and ch1=="Paper":
+    print(user2 ,"Win")
+elif ch1=="Paper" and ch2=="Rock":
+    print(user1 ,"Win")
+elif ch2=="Paper" and ch1=="Rock":
+    print(user2, "Win")
