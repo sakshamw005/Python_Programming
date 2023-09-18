@@ -1,0 +1,9 @@
+n=int(input("Enter the number"))
+for i in range (0 , n , 1 ) :
+    num1=int(input("Enter first number"))
+    num2=int(input("Enter second number"))
+    num3=int(input("Enter third number"))
+    prod= num1 * num2 * num3
+    print(prod)
+    avg = num1 + num2 + num3 // 3
+    print(avg)
