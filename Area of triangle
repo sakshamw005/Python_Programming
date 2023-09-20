@@ -1,0 +1,4 @@
+b=int(input("Enter the value of base"))
+h=int(input("Enter the value of height"))
+Area= (0.5 * b * h )
+print(Area)
