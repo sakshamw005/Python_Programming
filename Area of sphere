@@ -1,0 +1,5 @@
+b=int(input('ENter the base value'))
+r=int(input('Enter the radius value'))
+h=int(input())
+h**2==(b**2+r**2)
+print(h)
