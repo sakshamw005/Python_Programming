@@ -1,0 +1,8 @@
+n1=int(input('ENTER THE FIRST NUMBER'))
+n2=int(input('ENTER THE SECOND NUMBER'))
+if n1> n2 :
+    s=n1-n2
+    print(s)
+else :
+    p=n2-n1
+    print(p)
