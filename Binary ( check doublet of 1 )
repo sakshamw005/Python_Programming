@@ -1,0 +1,6 @@
+n=int(input())
+count = 0
+for i in range (0 , 2 ** n ) : # 2**n -1 but for loop runs already upto N-1
+    if '11' in bin(i) : # if n=2 , i will be 4 , now bin(1),bin(2),bin(3),bin(4) will be checked and if 11 will be there it will print
+        count+=1
+print(count)
