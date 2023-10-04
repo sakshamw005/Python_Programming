@@ -1,0 +1,7 @@
+st = input()
+node = int(input())
+rp = int(input())
+data = st[node :] + st[:node]
+data = data.replace(' ' , '') #for ignoring the spaces only
+define_data = data*rp
+print(*define_data)
