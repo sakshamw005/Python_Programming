@@ -1,0 +1,10 @@
+str = input()
+if len(str)%2!=0 :
+    print('Odd length.')
+else:
+    a,b,x=0,1,""
+    for i in range (int(len(str)/2)) : #because loop has to run only half times e.g. string has 6 characters , loop will run 3 times only
+        x=x+str[b]+str[a]
+        b=b+2
+        a=a+2
+    print(x)
