@@ -1,0 +1,7 @@
+n = int(input("Enter the number of days"))
+if n<=6 :
+    print("0weeks",n,"days")
+elif n>6 :
+    a = n // 7
+    b = n%7
+    print(a,"week,",b,"day")
