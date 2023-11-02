@@ -1,0 +1,12 @@
+n = int(input("ENTER THE TIME IN SECONDS :"))
+if n < 60 :
+    print("0 hours , 0 minutes",n,"seconds")
+elif 60<=n< 3600 :
+    a = n // 60
+    b = n%60
+    print("0 hours",a,"minutes",b,"seconds")
+elif n >=3600 :
+    a = n//3600
+    b = (n-a*3600)//60
+    c = n-a*3600-b*60
+    print(a,"hours",b,"minutes",c,"seconds")
